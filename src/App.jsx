@@ -1,7 +1,7 @@
 import { Card } from '@mohammedaffan/react-flip-card'
 import "@mohammedaffan/react-flip-card/index.css"
-import FrontDiv from './frontDiv'
-import BackDiv from './backDiv'
+import FrontDiv from './FrontDiv.jsx'
+import BackDiv from './BackDiv.jsx'
 function App() {
   const cardValues = [
     { animationType: 'flip', direction: ['horizontal', 'vertical'] },

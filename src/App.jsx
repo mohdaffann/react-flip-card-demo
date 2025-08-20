@@ -24,7 +24,7 @@ function App() {
                   : <p className='text-white'>{item.animationType}Direction={dir}</p>
                 }
 
-                <Card animationType={item.animationType} frontCard={<FrontDiv />} backCard={<BackDiv />} flipDirection={dir} slideDirection={dir} className='w-full sm:w-80 h-60' />
+                <Card animationType={item.animationType} frontCard={<FrontDiv />} backCard={<BackDiv />} flipDirection={dir} slideDirection={dir} className='max-w-2xl sm:w-80 h-60' />
               </div>
             ))}
           </div>
